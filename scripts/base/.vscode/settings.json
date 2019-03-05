@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "C:/kbengine/kbengine_docs/tips/baseapp",
+        "C:/kbengine/kbengine/balls_server/scripts/data",
+        "C:/kbengine/kbengine/balls_server/scripts/common",
+        "C:/kbengine/kbengine/balls_server/scripts/user_type"
+    ]
+}

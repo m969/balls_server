@@ -22,6 +22,8 @@ class Account(KBEngine.Proxy):
 		cell部分。
 		"""
 		INFO_MSG("account[%i] entities enable. entityCall:%s" % (self.id, self.client))
+		avatar = KBEngine.createEntityLocally("Avatar", {})
+		self.giveClientTo(avatar)
 			
 	def onLogOnAttempt(self, ip, port, password):
 		"""

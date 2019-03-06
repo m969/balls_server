@@ -6,9 +6,9 @@
 	</ClientMethods>
 
 	<BaseMethods>
-		<createCell>
+		<enterRoom>
 			<Arg>		ENTITYCALL		</Arg>
-		</createCell>
+		</enterRoom>
 	</BaseMethods>
 
 	<CellMethods>

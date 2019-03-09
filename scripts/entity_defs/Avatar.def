@@ -8,12 +8,22 @@
 	</Properties>
 
 	<ClientMethods>
+		<recieveChat>
+			<Arg>		UNICODE			</Arg>
+		</recieveChat>
 	</ClientMethods>
 
 	<BaseMethods>
 		<createCell>
 			<Arg>		ENTITYCALL		</Arg>
 		</createCell>
+		<sendChat>
+			<Exposed/>
+			<Arg>		UNICODE			</Arg>
+		</sendChat>
+		<recieveChat>
+			<Arg>		UNICODE			</Arg>
+		</recieveChat>
 	</BaseMethods>
 
 	<CellMethods>

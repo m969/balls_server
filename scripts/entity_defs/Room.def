@@ -9,6 +9,9 @@
 		<enterRoom>
 			<Arg>		ENTITYCALL		</Arg>
 		</enterRoom>
+		<sendChat>
+			<Arg>		UNICODE		</Arg>
+		</sendChat>
 	</BaseMethods>
 
 	<CellMethods>

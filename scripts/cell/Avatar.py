@@ -17,6 +17,8 @@ class Avatar(KBEngine.Entity):
 						range_xz, range_y, controllerID, userarg))
 		if entityEntering.className == "Food":
 			entityEntering.destroy()
+			if self.moveSpeed > 0.2:
+				self.moveSpeed = self.moveSpeed - 0.1
 
 	def onLeaveTrap(self, entityLeaving, range_xz, range_y, controllerID, userarg):
 		pass
